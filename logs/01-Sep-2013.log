@@ -1,0 +1,139 @@
+[01-Sep-2013 10:54:41 UTC] 8, Undefined variable: verse, C:\Users\beloved\Dropbox\htdocs\graffle\application\controllers\welcome.php, 17
+[01-Sep-2013 10:54:41 UTC] Undefined variable: verse
+[01-Sep-2013 10:54:41 UTC] #0 C:\Users\beloved\Dropbox\htdocs\graffle\application\controllers\welcome.php(17): exception_error_handler(8, 'Undefined varia...', 'C:\Users\belove...', 17, Array)
+#1 [internal function]: welcome->index()
+#2 C:\Users\beloved\Dropbox\htdocs\graffle\core\router.php(23): call_user_func(Array)
+#3 C:\Users\beloved\Dropbox\htdocs\graffle\index.php(98): Router::route(Object(Request))
+#4 {main}
+[01-Sep-2013 10:54:42 UTC] 8, Undefined index: , C:\Users\beloved\Dropbox\htdocs\graffle\core\db\dao.php, 39
+[01-Sep-2013 10:54:42 UTC] Undefined index: 
+[01-Sep-2013 10:54:42 UTC] #0 C:\Users\beloved\Dropbox\htdocs\graffle\core\db\dao.php(39): exception_error_handler(8, 'Undefined index...', 'C:\Users\belove...', 39, Array)
+#1 C:\Users\beloved\Dropbox\htdocs\graffle\application\models\bible.php(9): DAO->__construct(NULL, NULL)
+#2 C:\Users\beloved\Dropbox\htdocs\graffle\application\controllers\welcome.php(17): bible->__construct(NULL, NULL)
+#3 [internal function]: welcome->index()
+#4 C:\Users\beloved\Dropbox\htdocs\graffle\core\router.php(23): call_user_func(Array)
+#5 C:\Users\beloved\Dropbox\htdocs\graffle\index.php(98): Router::route(Object(Request))
+#6 {main}
+[01-Sep-2013 10:54:42 UTC] 8, Undefined index: , C:\Users\beloved\Dropbox\htdocs\graffle\core\db\dao.php, 43
+[01-Sep-2013 10:54:42 UTC] Undefined index: 
+[01-Sep-2013 10:54:42 UTC] #0 C:\Users\beloved\Dropbox\htdocs\graffle\core\db\dao.php(43): exception_error_handler(8, 'Undefined index...', 'C:\Users\belove...', 43, Array)
+#1 C:\Users\beloved\Dropbox\htdocs\graffle\application\models\bible.php(9): DAO->__construct(NULL, NULL)
+#2 C:\Users\beloved\Dropbox\htdocs\graffle\application\controllers\welcome.php(17): bible->__construct(NULL, NULL)
+#3 [internal function]: welcome->index()
+#4 C:\Users\beloved\Dropbox\htdocs\graffle\core\router.php(23): call_user_func(Array)
+#5 C:\Users\beloved\Dropbox\htdocs\graffle\index.php(98): Router::route(Object(Request))
+#6 {main}
+[01-Sep-2013 10:54:42 UTC] 2, in_array() expects parameter 2 to be array, null given, C:\Users\beloved\Dropbox\htdocs\graffle\core\db\dao.php, 81
+[01-Sep-2013 10:54:42 UTC] in_array() expects parameter 2 to be array, null given
+[01-Sep-2013 10:54:42 UTC] #0 [internal function]: exception_error_handler(2, 'in_array() expe...', 'C:\Users\belove...', 81, Array)
+#1 C:\Users\beloved\Dropbox\htdocs\graffle\core\db\dao.php(81): in_array('chapters', NULL)
+#2 C:\Users\beloved\Dropbox\htdocs\graffle\application\views\index.php(40): DAO->__get('chapter')
+#3 C:\Users\beloved\Dropbox\htdocs\graffle\core\view.php(32): include('C:\Users\belove...')
+#4 C:\Users\beloved\Dropbox\htdocs\graffle\core\view.php(45): View->get_sub_views()
+#5 C:\Users\beloved\Dropbox\htdocs\graffle\application\controllers\welcome.php(21): View->render()
+#6 [internal function]: welcome->index()
+#7 C:\Users\beloved\Dropbox\htdocs\graffle\core\router.php(23): call_user_func(Array)
+#8 C:\Users\beloved\Dropbox\htdocs\graffle\index.php(98): Router::route(Object(Request))
+#9 {main}
+[01-Sep-2013 10:54:42 UTC] 2, in_array() expects parameter 2 to be array, null given, C:\Users\beloved\Dropbox\htdocs\graffle\core\db\dao.php, 86
+[01-Sep-2013 10:54:42 UTC] in_array() expects parameter 2 to be array, null given
+[01-Sep-2013 10:54:42 UTC] #0 [internal function]: exception_error_handler(2, 'in_array() expe...', 'C:\Users\belove...', 86, Array)
+#1 C:\Users\beloved\Dropbox\htdocs\graffle\core\db\dao.php(86): in_array('chapter', NULL)
+#2 C:\Users\beloved\Dropbox\htdocs\graffle\application\views\index.php(40): DAO->__get('chapter')
+#3 C:\Users\beloved\Dropbox\htdocs\graffle\core\view.php(32): include('C:\Users\belove...')
+#4 C:\Users\beloved\Dropbox\htdocs\graffle\core\view.php(45): View->get_sub_views()
+#5 C:\Users\beloved\Dropbox\htdocs\graffle\application\controllers\welcome.php(21): View->render()
+#6 [internal function]: welcome->index()
+#7 C:\Users\beloved\Dropbox\htdocs\graffle\core\router.php(23): call_user_func(Array)
+#8 C:\Users\beloved\Dropbox\htdocs\graffle\index.php(98): Router::route(Object(Request))
+#9 {main}
+[01-Sep-2013 10:54:42 UTC] 2, in_array() expects parameter 2 to be array, null given, C:\Users\beloved\Dropbox\htdocs\graffle\core\db\dao.php, 91
+[01-Sep-2013 10:54:42 UTC] in_array() expects parameter 2 to be array, null given
+[01-Sep-2013 10:54:42 UTC] #0 [internal function]: exception_error_handler(2, 'in_array() expe...', 'C:\Users\belove...', 91, Array)
+#1 C:\Users\beloved\Dropbox\htdocs\graffle\core\db\dao.php(91): in_array('chapter', NULL)
+#2 C:\Users\beloved\Dropbox\htdocs\graffle\application\views\index.php(40): DAO->__get('chapter')
+#3 C:\Users\beloved\Dropbox\htdocs\graffle\core\view.php(32): include('C:\Users\belove...')
+#4 C:\Users\beloved\Dropbox\htdocs\graffle\core\view.php(45): View->get_sub_views()
+#5 C:\Users\beloved\Dropbox\htdocs\graffle\application\controllers\welcome.php(21): View->render()
+#6 [internal function]: welcome->index()
+#7 C:\Users\beloved\Dropbox\htdocs\graffle\core\router.php(23): call_user_func(Array)
+#8 C:\Users\beloved\Dropbox\htdocs\graffle\index.php(98): Router::route(Object(Request))
+#9 {main}
+[01-Sep-2013 10:54:42 UTC] 2, in_array() expects parameter 2 to be array, null given, C:\Users\beloved\Dropbox\htdocs\graffle\core\db\dao.php, 96
+[01-Sep-2013 10:54:42 UTC] in_array() expects parameter 2 to be array, null given
+[01-Sep-2013 10:54:42 UTC] #0 [internal function]: exception_error_handler(2, 'in_array() expe...', 'C:\Users\belove...', 96, Array)
+#1 C:\Users\beloved\Dropbox\htdocs\graffle\core\db\dao.php(96): in_array('chapter', NULL)
+#2 C:\Users\beloved\Dropbox\htdocs\graffle\application\views\index.php(40): DAO->__get('chapter')
+#3 C:\Users\beloved\Dropbox\htdocs\graffle\core\view.php(32): include('C:\Users\belove...')
+#4 C:\Users\beloved\Dropbox\htdocs\graffle\core\view.php(45): View->get_sub_views()
+#5 C:\Users\beloved\Dropbox\htdocs\graffle\application\controllers\welcome.php(21): View->render()
+#6 [internal function]: welcome->index()
+#7 C:\Users\beloved\Dropbox\htdocs\graffle\core\router.php(23): call_user_func(Array)
+#8 C:\Users\beloved\Dropbox\htdocs\graffle\index.php(98): Router::route(Object(Request))
+#9 {main}
+[01-Sep-2013 10:54:42 UTC] 8, Trying to get property of non-object, C:\Users\beloved\Dropbox\htdocs\graffle\application\views\index.php, 40
+[01-Sep-2013 10:54:42 UTC] Trying to get property of non-object
+[01-Sep-2013 10:54:42 UTC] #0 C:\Users\beloved\Dropbox\htdocs\graffle\application\views\index.php(40): exception_error_handler(8, 'Trying to get p...', 'C:\Users\belove...', 40, Array)
+#1 C:\Users\beloved\Dropbox\htdocs\graffle\core\view.php(32): include('C:\Users\belove...')
+#2 C:\Users\beloved\Dropbox\htdocs\graffle\core\view.php(45): View->get_sub_views()
+#3 C:\Users\beloved\Dropbox\htdocs\graffle\application\controllers\welcome.php(21): View->render()
+#4 [internal function]: welcome->index()
+#5 C:\Users\beloved\Dropbox\htdocs\graffle\core\router.php(23): call_user_func(Array)
+#6 C:\Users\beloved\Dropbox\htdocs\graffle\index.php(98): Router::route(Object(Request))
+#7 {main}
+[01-Sep-2013 10:54:42 UTC] 2, PDOStatement::execute(): SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE true  AND  id = NULL  ORDER BY id DESC' at line 1, C:\Users\beloved\Dropbox\htdocs\graffle\core\db\db.php, 691
+[01-Sep-2013 10:54:42 UTC] PDOStatement::execute(): SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE true  AND  id = NULL  ORDER BY id DESC' at line 1
+[01-Sep-2013 10:54:42 UTC] #0 [internal function]: exception_error_handler(2, 'PDOStatement::e...', 'C:\Users\belove...', 691, Array)
+#1 C:\Users\beloved\Dropbox\htdocs\graffle\core\db\db.php(691): PDOStatement->execute()
+#2 C:\Users\beloved\Dropbox\htdocs\graffle\core\db\dao.php(513): db->execute()
+#3 C:\Users\beloved\Dropbox\htdocs\graffle\application\views\index.php(42): DAO->valid()
+#4 C:\Users\beloved\Dropbox\htdocs\graffle\core\view.php(32): include('C:\Users\belove...')
+#5 C:\Users\beloved\Dropbox\htdocs\graffle\core\view.php(45): View->get_sub_views()
+#6 C:\Users\beloved\Dropbox\htdocs\graffle\application\controllers\welcome.php(21): View->render()
+#7 [internal function]: welcome->index()
+#8 C:\Users\beloved\Dropbox\htdocs\graffle\core\router.php(23): call_user_func(Array)
+#9 C:\Users\beloved\Dropbox\htdocs\graffle\index.php(98): Router::route(Object(Request))
+#10 {main}
+[01-Sep-2013 10:54:42 UTC] Here is the troublesome query :  SELECT * FROM    WHERE true  AND  id = ?  ORDER BY id DESC Array
+(
+    [0] => 
+)
+
+[01-Sep-2013 10:54:42 UTC] 
+[01-Sep-2013 10:54:42 UTC] #0 C:\Users\beloved\Dropbox\htdocs\graffle\core\db\dao.php(513): db->execute()
+#1 C:\Users\beloved\Dropbox\htdocs\graffle\application\views\index.php(42): DAO->valid()
+#2 C:\Users\beloved\Dropbox\htdocs\graffle\core\view.php(32): include('C:\Users\belove...')
+#3 C:\Users\beloved\Dropbox\htdocs\graffle\core\view.php(45): View->get_sub_views()
+#4 C:\Users\beloved\Dropbox\htdocs\graffle\application\controllers\welcome.php(21): View->render()
+#5 [internal function]: welcome->index()
+#6 C:\Users\beloved\Dropbox\htdocs\graffle\core\router.php(23): call_user_func(Array)
+#7 C:\Users\beloved\Dropbox\htdocs\graffle\index.php(98): Router::route(Object(Request))
+#8 {main}
+[01-Sep-2013 10:55:18 UTC] 8, Undefined variable: verse, C:\Users\beloved\Dropbox\htdocs\graffle\application\controllers\welcome.php, 17
+[01-Sep-2013 10:55:18 UTC] Undefined variable: verse
+[01-Sep-2013 10:55:18 UTC] #0 C:\Users\beloved\Dropbox\htdocs\graffle\application\controllers\welcome.php(17): exception_error_handler(8, 'Undefined varia...', 'C:\Users\belove...', 17, Array)
+#1 [internal function]: welcome->index()
+#2 C:\Users\beloved\Dropbox\htdocs\graffle\core\router.php(23): call_user_func(Array)
+#3 C:\Users\beloved\Dropbox\htdocs\graffle\index.php(98): Router::route(Object(Request))
+#4 {main}
+[01-Sep-2013 10:55:24 UTC] 8, Undefined variable: verse, C:\Users\beloved\Dropbox\htdocs\graffle\application\controllers\welcome.php, 17
+[01-Sep-2013 10:55:24 UTC] Undefined variable: verse
+[01-Sep-2013 10:55:24 UTC] #0 C:\Users\beloved\Dropbox\htdocs\graffle\application\controllers\welcome.php(17): exception_error_handler(8, 'Undefined varia...', 'C:\Users\belove...', 17, Array)
+#1 [internal function]: welcome->index()
+#2 C:\Users\beloved\Dropbox\htdocs\graffle\core\router.php(23): call_user_func(Array)
+#3 C:\Users\beloved\Dropbox\htdocs\graffle\index.php(98): Router::route(Object(Request))
+#4 {main}
+[01-Sep-2013 10:55:51 UTC] 8, Undefined variable: verse, C:\Users\beloved\Dropbox\htdocs\graffle\application\controllers\welcome.php, 17
+[01-Sep-2013 10:55:51 UTC] Undefined variable: verse
+[01-Sep-2013 10:55:51 UTC] #0 C:\Users\beloved\Dropbox\htdocs\graffle\application\controllers\welcome.php(17): exception_error_handler(8, 'Undefined varia...', 'C:\Users\belove...', 17, Array)
+#1 [internal function]: welcome->index()
+#2 C:\Users\beloved\Dropbox\htdocs\graffle\core\router.php(23): call_user_func(Array)
+#3 C:\Users\beloved\Dropbox\htdocs\graffle\index.php(98): Router::route(Object(Request))
+#4 {main}
+[01-Sep-2013 10:56:36 UTC] 8, Undefined variable: verse, C:\Users\beloved\Dropbox\htdocs\graffle\application\controllers\welcome.php, 17
+[01-Sep-2013 10:56:36 UTC] Undefined variable: verse
+[01-Sep-2013 10:56:36 UTC] #0 C:\Users\beloved\Dropbox\htdocs\graffle\application\controllers\welcome.php(17): exception_error_handler(8, 'Undefined varia...', 'C:\Users\belove...', 17, Array)
+#1 [internal function]: welcome->index()
+#2 C:\Users\beloved\Dropbox\htdocs\graffle\core\router.php(23): call_user_func(Array)
+#3 C:\Users\beloved\Dropbox\htdocs\graffle\index.php(98): Router::route(Object(Request))
+#4 {main}
