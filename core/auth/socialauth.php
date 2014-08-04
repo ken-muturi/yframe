@@ -7,15 +7,15 @@
 
 class Socialauth {
 
-    public $FB_APP_KEY = '120957731257602';
+    public $FB_APP_KEY = '';
 
-    public $FB_APP_SECRET = '56872f414479b59b2f33ccee958e0d48';
+    public $FB_APP_SECRET = '';
 
     public $TWITTER_CALLBACK_URL = '';
 
-    public $TWITTER_CONSUMER_KEY = 'o2j7ra547bcfpOqChBdqhw';
+    public $TWITTER_CONSUMER_KEY = '';
 
-    public $TWITTER_CONSUMER_SECRET = 'c828vXnHcs7b8HkeixsVHOsSf1KZ8cw9bKrgCEIJQ';
+    public $TWITTER_CONSUMER_SECRET = '';
 
     public $_NETWORKS = array("twitter", "facebook", "google", "linkedin", "yahoo");
 
