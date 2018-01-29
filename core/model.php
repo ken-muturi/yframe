@@ -2,6 +2,7 @@
 /**
  *  Extend DAO or an ORM
  */
-class Model {
+class Model 
+{
 
 }

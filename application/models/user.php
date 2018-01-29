@@ -1,8 +1,8 @@
 <?php
 
-class user Extends DAO  {
-    public $pk = "id"; 
-    
+class user Extends DAO  
+{
+    public $pk = "id";
     public function __construct($id = null)
     {
         parent::__construct("users", $id);        

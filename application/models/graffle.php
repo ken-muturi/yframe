@@ -1,9 +1,7 @@
 <?php
-
-class Graffle extends Model {
-	
+class Graffle extends Model 
+{	
 	private $shapes = array();
-
 	public function __construct()
 	{
 		$this->shapes = array (

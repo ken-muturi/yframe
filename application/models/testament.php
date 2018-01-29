@@ -1,9 +1,7 @@
 <?php
-
-class testament extends DAO {
-	
+class testament extends DAO 
+{	
     public $pk = "id"; 
-    
     public function __construct($id = '*', $table = 'testaments')
     {
         parent::__construct($table, $id);        

@@ -1,10 +1,8 @@
 <?php
-
-class View {
-
+class View 
+{
 	public $arr = array();
     public $file;
-
 	public function __construct($file) 
     {
         $this->file = $file. '.php';

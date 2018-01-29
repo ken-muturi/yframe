@@ -2,8 +2,8 @@
 /**
  *  YFrame Router Class
  */
-class Router {
-	
+class Router 
+{	
 	public static function route(Request $request)
 	{	
 		$controller = $request->controller();
@@ -14,17 +14,14 @@ class Router {
 		$controller = new $controller;
 		$method = (is_callable(array($controller, $method))) ? $method : 'index';	
 		
-		if(!empty($args))
+		if( ! empty($args) )
 		{
 			call_user_func_array(array($controller,$method),$args);
 		}
 		else
 		{	
 			call_user_func(array($controller,$method));
-		}
-
-		return;
-		
+		}		
 		throw new Exception('404 - '.$request->controller().' not found');
 	}
 }

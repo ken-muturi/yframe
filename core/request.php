@@ -2,8 +2,8 @@
 /**
  * The YFrame Request handler
  */
-class Request {
-	
+class Request 
+{	
 	private $_controller;
 	private $_method;
 	private $_args;

@@ -1,9 +1,7 @@
 <?php
-
-class Core {
-
+class Core 
+{
 	protected $_registry;
-
 	public function __construct() 
 	{
 		$this->_registry = Registry::instance();
@@ -23,4 +21,3 @@ class Core {
 		return false;
 	}	
 }
-

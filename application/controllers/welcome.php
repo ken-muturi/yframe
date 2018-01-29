@@ -1,7 +1,7 @@
 <?php
-	class welcome extends Core {
-		private $model = '';
-		
+	class welcome extends Core 
+	{
+		private $model = '';	
 		public function __construct() 
 		{
 			parent::__construct();

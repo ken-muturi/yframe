@@ -4,7 +4,6 @@
  * A db access object or an ORM if you like
  * @depends : PDO PECL extension (see http://php.net/manual/en/book.pdo.php)
  * @depends : PHP >= 5.2.9
- * @yours-truly : ndungi@gmail.com
  * @license : 
  * *********************************************************************
  *  Basically, you can do whatever you want, as long as you don’t say you 

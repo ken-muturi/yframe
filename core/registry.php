@@ -2,12 +2,10 @@
 /**
  * YFrame Singleton pattern
  */
-class Registry {
-
+class Registry 
+{
 	private static $_instance;
-
 	private $_storage;
-
 	private function __construct(){}
 
 	public static function instance()
@@ -33,4 +31,3 @@ class Registry {
 		return false;
 	}
 }
-
