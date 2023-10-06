@@ -653,7 +653,7 @@ $rs = $db->insert("users", array("username"=> "?",
                             "email" => "?"))
          ->run("alizabeth",
                 "password('ng'a maina')", 
-                "ndungi@gmail.com");
+                "ken@gmail.com");
             
 $rs = $db->select(array("email" => "username"))->from("users")->run();
 echo "<pre>" .  print_r($rs, 1) . "</pre> {$db->query}";
